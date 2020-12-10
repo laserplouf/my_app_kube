@@ -16,7 +16,7 @@ spec:
         "beta.kubernetes.io/os": linux 
       containers: 
       - name: my-app 
-        image:$IMAGE
+        image: $IMAGE
         ports:
         - containerPort: 8080
           name: my-app
